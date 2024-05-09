@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>wheather app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" placeholder="enter your city" spellcheck="false"  id="city"/>
+        <button id="submit"><img src="images/search.png" /></button>
+      </div>
+      <div class="wheather">
+        <img src="images/rain.png" class="wheather-icon" />
+        <h1 class="temp"><span id="temp"></span></h1>
+        <h2 class="city" ><span id="cityName"></span></h2>
+        <div class="details">
+          <div class="col">
+            <img src="images/humidity.png" />
+            <div>
+              <p class="humidity"><span id="humidity"></span></p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="images/wind.png" />
+            <div>
+              <p class="wind"><span id="wind_speed"></span></p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
